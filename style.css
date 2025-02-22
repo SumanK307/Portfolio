@@ -70,3 +70,16 @@ section {
   border-bottom: 2px solid rgba(255, 255, 255, .1);
   background: #0f0a0a;
 }
+
+.logo {
+  font-size: 2.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ff00ee;
+}
+
+#menu {
+  color: #fff;
+  font-size: 2.5rem;
+  display: none;
+}
