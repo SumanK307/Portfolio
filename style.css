@@ -53,3 +53,20 @@ section {
   gap: 5rem;
   flex-wrap: wrap;
 }
+/****************** Header Section ***************/
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 2.5rem 1.5%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.sticky {
+  border-bottom: 2px solid rgba(255, 255, 255, .1);
+  background: #0f0a0a;
+}
