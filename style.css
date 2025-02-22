@@ -83,3 +83,17 @@ section {
   font-size: 2.5rem;
   display: none;
 }
+.navbar a {
+  display: inline-block;
+  font-size: 1.7rem;
+  text-decoration: none;
+  margin: 0 2.5rem;
+  font-weight: 500;
+  letter-spacing: .02;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #ff00ee;
+  border-bottom: 0.2rem solid #ff00ee;
+}
