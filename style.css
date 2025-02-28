@@ -256,3 +256,16 @@ i:hover::after{
 .content p {
   font-size: 1.5rem;
 }
+
+/* Skill section */
+
+.skill-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.skill-content {
+  width: 100%;
+  flex: 1 1 30rem;
+}
