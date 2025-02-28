@@ -291,3 +291,53 @@ i:hover::after{
   justify-content: space-between;
   margin: 2rem 0;
 }
+
+.single-skill span {
+  font-size: 1.6rem;
+}
+
+.bar-side {
+  background: #111;
+  height: 1rem;
+  border-radius: 50rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.bar {
+  position: absolute;
+  height: 100%;
+  background: #ff00ee;
+}
+
+.bar-1 {
+  width: 85%;
+}
+
+.bar-2 {
+  width: 70%;
+}
+
+.bar-3 {
+  width: 60%;
+}
+
+.bar-4 {
+  width: 85%;
+}
+
+.bar-5 {
+  width: 75%;
+}
+
+.bar-6 {
+  width: 70%;
+}
+
+.input-box span {
+  color: #ff00ee;
+}
+
+.input-box {
+  text-align: center;
+}
