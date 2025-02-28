@@ -280,3 +280,14 @@ i:hover::after{
 .skill-box1 {
   border: .2rem solid #ff00ee;
 }
+
+.skill-box2 {
+  margin-top: 10%;
+  border: .2rem solid #ff00ee;
+}
+
+.single-skill {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
