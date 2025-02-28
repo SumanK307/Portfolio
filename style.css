@@ -257,7 +257,7 @@ i:hover::after{
   font-size: 1.5rem;
 }
 
-/* Skill section */
+/************** Skill section *************/
 
 .skill-title {
   font-size: 2.4rem;
@@ -268,4 +268,15 @@ i:hover::after{
 .skill-content {
   width: 100%;
   flex: 1 1 30rem;
+}
+.skill-box {
+  height: 100%;
+  width: 100%;
+  padding: 3rem 3rem;
+  background: rgba(255, 255, 255, .1);
+  border-radius: 1rem;
+}
+
+.skill-box1 {
+  border: .2rem solid #ff00ee;
 }
