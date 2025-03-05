@@ -341,3 +341,26 @@ i:hover::after{
 .input-box {
   text-align: center;
 }
+
+/**************** PROJECT Section **************/
+
+.project-content {
+  width: 100%;
+  flex: 1 1 30rem;
+}
+.project-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  padding: 5rem 4rem;
+  background: rgba(255, 255, 255, .1);
+  border-radius: 1rem;
+  border: .2rem solid #ff00ee;
+}
