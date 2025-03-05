@@ -392,3 +392,17 @@ i:hover::after{
   text-align: center;
   font-weight: 600;
 }
+
+.linkbtn .btn {
+  padding: 1.3rem 2rem;
+  border-radius: 2.5em;
+  text-align: center;
+  color: #fff;
+  background: #ff00ee;
+  font-family: "Nunito", sans-serif;
+}
+.linkbtn .btn span {
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
