@@ -442,3 +442,9 @@ i:hover::after{
   transform: translateY(-2px);
   box-shadow: 0 3px 5px #ff00ee;
 }
+
+.certification-card img {
+  width: 100%;
+  height: calc(100% - 30px);
+  border-radius: 10px 10px 0 0;
+}
