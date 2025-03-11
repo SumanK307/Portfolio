@@ -469,3 +469,16 @@ i:hover::after{
   border-radius: 1.5rem;
   border: .2rem solid #ff00ee;
 }
+
+.contact .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+}
+
+.contact .content form {
+  width: 100%;
+  margin-right: 3.5rem;
+}
+
