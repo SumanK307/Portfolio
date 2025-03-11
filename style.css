@@ -496,3 +496,110 @@ form .form-group {
   width: 100%;
 }
 
+form i {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  color: #fff;
+  font-size: 20px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+form .field input,
+form .message textarea {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 0 0 0 48px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #e45bdb;
+  background: rgba(255, 255, 255, .1);
+}
+
+.field input::placeholder,
+.message textarea::placeholder {
+  color: #fff;
+}
+
+.field input:focus,
+.message textarea:focus {
+  padding-left: 20px;
+  box-shadow: 0 2px 3px #ff00ee;
+  border: 1px solid #ff00ee;
+}
+
+.field input:focus~i,
+.message textarea:focus~i {
+  color: #fff;
+}
+
+form .message {
+  position: relative;
+  margin: 1rem;
+  width: 100%;
+}
+
+form .message i {
+  top: 25px;
+  font-size: 20px;
+  left: 20px;
+}
+
+form .message textarea {
+  min-height: 130px;
+  max-height: 230px;
+  max-width: 100%;
+  min-width: 100%;
+  margin-top: 3px;
+}
+
+form .message textarea::-webkit-scrollbar {
+  width: 0px;
+}
+
+form .button-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.button-area button {
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 13px 25px;
+  background: #ff00ee;
+  transition: 0.3s ease;
+  font-family: "Nunito", sans-serif;
+}
+
+.button-area button:hover {
+  background: #ff00ee;
+  box-shadow: 0 1px 3px #ff00ee;
+}
+
+.button-area span {
+  font-size: 17px;
+  padding: 1rem;
+  display: none;
+}
+
+.button-area button i {
+  position: relative;
+  top: 6px;
+  left: 2px;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.button-area button:hover i {
+  left: 8px;
+}
