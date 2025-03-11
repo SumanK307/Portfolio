@@ -482,3 +482,17 @@ i:hover::after{
   margin-right: 3.5rem;
 }
 
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-group .field {
+  height: 50px;
+  display: flex;
+  position: relative;
+  margin: 1rem;
+  width: 100%;
+}
+
