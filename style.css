@@ -455,3 +455,17 @@ i:hover::after{
   color: #fff;
   text-align: center;
 }
+
+/***************** Contact Section ***********/
+.contact {
+  background: #0f0a0a;
+  min-height: 60vh;
+}
+
+.contact .container {
+  max-width: 1200px;
+  width: 100%;
+  background: rgba(255, 255, 255, .1);
+  border-radius: 1.5rem;
+  border: .2rem solid #ff00ee;
+}
