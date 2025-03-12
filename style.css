@@ -599,7 +599,6 @@ form .button-area {
   transition: 0.3s;
   color: #fff;
 }
-
 .button-area button:hover i {
   left: 8px;
 }
