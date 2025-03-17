@@ -620,3 +620,21 @@ form .button-area {
   flex: 1 1 25rem;
   margin: 2.5rem;
 }
+
+.footer .box-container .boxF h3 {
+  font-size: 2.5rem;
+  color: #fff;
+  padding-bottom: 1rem;
+  font-weight: normal;
+}
+.footer .box-container .boxF p {
+  font-size: 1.5rem;
+  color: #ccc;
+  padding: 0.7rem 0;
+  text-transform: none;
+}
+.footer .box-container .boxF p i {
+  padding-right: 1rem;
+  color: #ff00ee;
+}
+
