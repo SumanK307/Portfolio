@@ -683,3 +683,44 @@ form .button-area {
 .footer .credit span {
   color: #ff00ee;
 }
+
+/********************* Responsivness **********/
+@media(max-width:1200px) {
+  html {
+    font-size: 55;
+  }
+}
+
+@media(max-width:991px) {
+  .header {
+    padding: 2rem 9%;
+  }
+
+  section {
+    padding: 10rem 3% 2rem;
+  }
+
+  .contact {
+    min-height: auto;
+  }
+
+  footer {
+    padding: 2rem 3%;
+  }
+}
+
+@media(max-width:768px) {
+  #menu {
+    display: block;
+  }
+  .navbar {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    padding: 1rem 3%;
+    background: #0f0a0a;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: .2rem solid rgba(255, 255, 255, .1);
+    display: none;
+  }
