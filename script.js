@@ -4,3 +4,5 @@ menubar.onclick=()=>{
     menubar.classList.toggle('bx-x');
     Navbar.classList.toggle('active')
 }
+const section=document.querySelectorAll('section');
+const navlink = document.querySelectorAll('header nav a')
