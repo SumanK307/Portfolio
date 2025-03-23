@@ -12,4 +12,8 @@ window.onscroll = ()=>{
         let offset = sec.offsetTop - 150;
         let height = sec.offsetHeight;
         let id = sec.getAttribute('id')
-        
+        if(top>offset && top < offset + height){
+            sec.classList.add('start-animation');
+            navlink.forEach(links=>{
+                links.classList.remove('active')
+                
