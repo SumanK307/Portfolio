@@ -22,7 +22,7 @@ window.onscroll = ()=>{
         }
     })
     var header = document.querySelector('.header');
-    header.classList.toggle('sticky',window.scrollY>100)
+    header.classList.toggle('sticky',window.scrollY>30)
     menubar.classList.remove('bx-x');
     Navbar.classList.remove('active')
 }
