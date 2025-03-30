@@ -170,7 +170,7 @@ i:hover::after{
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
-  border-radius: 0.5em;
+  border-radius: 2.5em;
   color: #fff;
   background: #ff00ee;
   font-family: "Nunito", sans-serif;
@@ -182,7 +182,8 @@ i:hover::after{
 }
 
 .resumebtn .btn:hover {
-  box-shadow: 0 3px 5px #ff00ee;
+  box-shadow: 0 0px 5px #ff00ee;
+  cursor: pointer;
 }
 
 .home img {
