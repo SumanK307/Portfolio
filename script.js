@@ -6,7 +6,7 @@ menubar.onclick=()=>{
 }
 const section=document.querySelectorAll('section');
 const navlink = document.querySelectorAll('header nav a')
-window.onscroll =()=>{
+window.onscroll = ()=>{
     section.forEach(sec=>{
         let top = window.scrollY;
         let offset = sec.offsetTop - 150;
